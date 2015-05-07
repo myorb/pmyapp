@@ -55,6 +55,10 @@ $config = [
             'class'  => 'app\modules\admin\Module',
             'layout' => '@admin-views/layouts/main',
         ],
+         'post' => [
+            'layout' => '@admin-views/layouts/main',
+            'class' => 'app\modules\post\Post',
+        ],
         /*'docs'    => [
             'class'  => \schmunk42\markdocs\Module::className(),
             'layout' => '@app/views/layouts/container',
@@ -69,6 +73,10 @@ $config = [
             'defaultRoute' => 'profile',
             'admins'       => ['admin']
         ],
+        // 'crud'    => [
+        //     'class'  => 'app\modules\crud\Module',
+        //     'layout' => '@admin-views/layouts/main',
+        // ],
     ],
     'params'     => [
         'appName'        => getenv('APP_NAME'),

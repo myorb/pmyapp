@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b710677c042c2edb633821970d7469cf",
+    "hash": "1526ec7f49675ed51a4ef67cd0ffc93b",
     "packages": [
         {
             "name": "bower-asset/admin-lte",
@@ -469,18 +469,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dmstr/yii2-adminlte-asset.git",
-                "reference": "d3c266ea40fd2a0089ca6180509dde3caa8d57ad"
+                "reference": "9f3c5b8b771bac729f5c88a375ad5a0fab84f30c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dmstr/yii2-adminlte-asset/zipball/d3c266ea40fd2a0089ca6180509dde3caa8d57ad",
-                "reference": "d3c266ea40fd2a0089ca6180509dde3caa8d57ad",
+                "url": "https://api.github.com/repos/dmstr/yii2-adminlte-asset/zipball/9f3c5b8b771bac729f5c88a375ad5a0fab84f30c",
+                "reference": "9f3c5b8b771bac729f5c88a375ad5a0fab84f30c",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/admin-lte": "~2.0",
                 "cebe/yii2-gravatar": "1.*",
-                "rmrevin/yii2-fontawesome": "2.8.*",
+                "rmrevin/yii2-fontawesome": "2.9.*",
                 "yiisoft/yii2": "2.*",
                 "yiisoft/yii2-bootstrap": "2.*"
             },
@@ -515,21 +515,24 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2015-03-16 22:20:59"
+            "time": "2015-05-01 01:07:21"
         },
         {
             "name": "dmstr/yii2-app-command",
-            "version": "0.0.1",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dmstr/yii2-app-command.git",
-                "reference": "99ad4f5fc5227aa3415b20b991deda6254e65a5f"
+                "reference": "d669ebca0e2149bb69ee93e7629354442c1ef3fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dmstr/yii2-app-command/zipball/99ad4f5fc5227aa3415b20b991deda6254e65a5f",
-                "reference": "99ad4f5fc5227aa3415b20b991deda6254e65a5f",
+                "url": "https://api.github.com/repos/dmstr/yii2-app-command/zipball/d669ebca0e2149bb69ee93e7629354442c1ef3fa",
+                "reference": "d669ebca0e2149bb69ee93e7629354442c1ef3fa",
                 "shasum": ""
+            },
+            "require": {
+                "mikehaertl/php-shellcommand": "*"
             },
             "type": "yii2-extension",
             "autoload": {
@@ -555,20 +558,20 @@
                 "management",
                 "yii2"
             ],
-            "time": "2014-12-08 12:49:18"
+            "time": "2015-04-20 20:09:37"
         },
         {
             "name": "dmstr/yii2-migrate-command",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dmstr/yii2-migrate-command.git",
-                "reference": "fb5090e747902e594dc910e3264495b11349b699"
+                "reference": "180a041e5a30144e6c5924e28e3e3e256173dc16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dmstr/yii2-migrate-command/zipball/fb5090e747902e594dc910e3264495b11349b699",
-                "reference": "fb5090e747902e594dc910e3264495b11349b699",
+                "url": "https://api.github.com/repos/dmstr/yii2-migrate-command/zipball/180a041e5a30144e6c5924e28e3e3e256173dc16",
+                "reference": "180a041e5a30144e6c5924e28e3e3e256173dc16",
                 "shasum": ""
             },
             "type": "yii2-extension",
@@ -595,7 +598,7 @@
                 "migration",
                 "yii2"
             ],
-            "time": "2014-11-19 13:24:06"
+            "time": "2015-02-26 12:33:53"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -691,17 +694,259 @@
             "time": "2015-01-22 18:09:42"
         },
         {
-            "name": "mikehaertl/php-shellcommand",
-            "version": "1.0.4",
+            "name": "kartik-v/bootstrap-fileinput",
+            "version": "v4.1.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mikehaertl/php-shellcommand.git",
-                "reference": "8f85b119472c98c539c7ac5f4302643ff20df220"
+                "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
+                "reference": "00bf2212c4c005850267dd27803dba350e90a5be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikehaertl/php-shellcommand/zipball/8f85b119472c98c539c7ac5f4302643ff20df220",
-                "reference": "8f85b119472c98c539c7ac5f4302643ff20df220",
+                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/00bf2212c4c005850267dd27803dba350e90a5be",
+                "reference": "00bf2212c4c005850267dd27803dba350e90a5be",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "kartik\\plugins\\fileinput\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "An enhanced HTML 5 file input for Bootstrap 3.x with features for file preview for many file types, multiple selection, ajax uploads, and more.",
+            "homepage": "https://github.com/kartik-v/bootstrap-fileinput",
+            "keywords": [
+                "ajax",
+                "bootstrap",
+                "delete",
+                "file",
+                "image",
+                "input",
+                "jquery",
+                "multiple",
+                "preview",
+                "progress",
+                "upload"
+            ],
+            "time": "2015-05-02 11:29:22"
+        },
+        {
+            "name": "kartik-v/yii2-export",
+            "version": "v1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/yii2-export.git",
+                "reference": "6c8e3aa6e555f630063d3b8c1cf37198260c5351"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/yii2-export/zipball/6c8e3aa6e555f630063d3b8c1cf37198260c5351",
+                "reference": "6c8e3aa6e555f630063d3b8c1cf37198260c5351",
+                "shasum": ""
+            },
+            "require": {
+                "kartik-v/yii2-grid": "*",
+                "phpoffice/phpexcel": "1.8.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "kartik\\export\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "A library to export server/db data in various formats (e.g. excel, html, pdf, csv etc.)",
+            "homepage": "https://github.com/kartik-v/yii2-export",
+            "keywords": [
+                "OpenXML",
+                "csv",
+                "export",
+                "extension",
+                "html",
+                "json",
+                "pdf",
+                "spreadsheet",
+                "text",
+                "widget",
+                "xls",
+                "xlsx",
+                "yii2"
+            ],
+            "time": "2015-02-14 09:03:31"
+        },
+        {
+            "name": "kartik-v/yii2-grid",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/yii2-grid.git",
+                "reference": "d80540ec05931f819bd0dea16a76f989776ce09c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/yii2-grid/zipball/d80540ec05931f819bd0dea16a76f989776ce09c",
+                "reference": "d80540ec05931f819bd0dea16a76f989776ce09c",
+                "shasum": ""
+            },
+            "require": {
+                "kartik-v/yii2-krajee-base": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "kartik\\grid\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "Yii 2 GridView on steroids. Various enhancements and utilities for the Yii 2.0 GridView widget.",
+            "homepage": "https://github.com/kartik-v/yii2-grid",
+            "keywords": [
+                "extension",
+                "grid",
+                "widget",
+                "yii2"
+            ],
+            "time": "2015-03-25 08:14:18"
+        },
+        {
+            "name": "kartik-v/yii2-krajee-base",
+            "version": "v1.7.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/yii2-krajee-base.git",
+                "reference": "2b1d3cafd3864d3ecf3e16db69256dd967fe911d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/yii2-krajee-base/zipball/2b1d3cafd3864d3ecf3e16db69256dd967fe911d",
+                "reference": "2b1d3cafd3864d3ecf3e16db69256dd967fe911d",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2-bootstrap": "@dev"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "kartik\\base\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "Base library and foundation components for all Yii2 Krajee extensions.",
+            "homepage": "https://github.com/kartik-v/yii2-krajee-base",
+            "keywords": [
+                "base",
+                "extension",
+                "foundation",
+                "krajee",
+                "widget",
+                "yii2"
+            ],
+            "time": "2015-05-03 08:11:52"
+        },
+        {
+            "name": "kartik-v/yii2-widget-fileinput",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/yii2-widget-fileinput.git",
+                "reference": "c78637387dd5306002ae5613d9f9cab8a5df975d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-fileinput/zipball/c78637387dd5306002ae5613d9f9cab8a5df975d",
+                "reference": "c78637387dd5306002ae5613d9f9cab8a5df975d",
+                "shasum": ""
+            },
+            "require": {
+                "kartik-v/bootstrap-fileinput": "*",
+                "kartik-v/yii2-krajee-base": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "kartik\\file\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "An enhanced FileInput widget for Bootstrap 3.x with file preview, multiple selection, and more features (sub repo split from yii2-widgets)",
+            "homepage": "https://github.com/kartik-v/yii2-widget-fileinput",
+            "keywords": [
+                "extension",
+                "file",
+                "form",
+                "input",
+                "jquery",
+                "plugin",
+                "upload",
+                "widget",
+                "yii2"
+            ],
+            "time": "2015-05-03 14:11:04"
+        },
+        {
+            "name": "mikehaertl/php-shellcommand",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikehaertl/php-shellcommand.git",
+                "reference": "48c0435d283c89bf595b2ac58d5cf7dea2a02c1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikehaertl/php-shellcommand/zipball/48c0435d283c89bf595b2ac58d5cf7dea2a02c1c",
+                "reference": "48c0435d283c89bf595b2ac58d5cf7dea2a02c1c",
                 "shasum": ""
             },
             "type": "library",
@@ -724,20 +969,77 @@
             "keywords": [
                 "shell"
             ],
-            "time": "2014-11-03 09:44:24"
+            "time": "2015-04-15 17:09:44"
         },
         {
-            "name": "rmrevin/yii2-fontawesome",
-            "version": "2.8.1",
+            "name": "phpoffice/phpexcel",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/rmrevin/yii2-fontawesome.git",
-                "reference": "026f9ac9649b0e7c1b9b84b3bfb9481418d22ae0"
+                "url": "https://github.com/PHPOffice/PHPExcel.git",
+                "reference": "e69a5e4d0ffa7fb6f171859e0a04346e580df30b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/026f9ac9649b0e7c1b9b84b3bfb9481418d22ae0",
-                "reference": "026f9ac9649b0e7c1b9b84b3bfb9481418d22ae0",
+                "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/e69a5e4d0ffa7fb6f171859e0a04346e580df30b",
+                "reference": "e69a5e4d0ffa7fb6f171859e0a04346e580df30b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPExcel": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Maarten Balliauw",
+                    "homepage": "http://blog.maartenballiauw.be"
+                },
+                {
+                    "name": "Mark Baker"
+                },
+                {
+                    "name": "Franck Lefevre",
+                    "homepage": "http://blog.rootslabs.net"
+                },
+                {
+                    "name": "Erik Tilt"
+                }
+            ],
+            "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+            "homepage": "http://phpexcel.codeplex.com",
+            "keywords": [
+                "OpenXML",
+                "excel",
+                "php",
+                "spreadsheet",
+                "xls",
+                "xlsx"
+            ],
+            "time": "2014-03-02 15:22:49"
+        },
+        {
+            "name": "rmrevin/yii2-fontawesome",
+            "version": "2.9.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rmrevin/yii2-fontawesome.git",
+                "reference": "717747ffd1f5169e4217b3f17e407366b51d22ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/717747ffd1f5169e4217b3f17e407366b51d22ca",
+                "reference": "717747ffd1f5169e4217b3f17e407366b51d22ca",
                 "shasum": ""
             },
             "require": {
@@ -770,7 +1072,7 @@
                 "font",
                 "yii"
             ],
-            "time": "2015-03-16 12:42:14"
+            "time": "2015-04-28 20:15:13"
         },
         {
             "name": "swiftmailer/swiftmailer",
